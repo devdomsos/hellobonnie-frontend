@@ -139,6 +139,7 @@ const SearchModal = () => {
 
       />
       <hr />
+      {/* @ts-ignore */}
       <Map center={location?.latlng} />
     </div>
   )
